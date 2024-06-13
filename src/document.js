@@ -189,6 +189,8 @@ const documentsMain = {
 				+ '<input name="ui_defaults" value="' + getUIDefaults() + '" type="hidden"/>'
 				+ '<input name="css_variables" value="' + generateCSSVarTokens() + '" type="hidden"/>'
 				+ '<input name="theme" value="' + getCollaboraTheme() + '" type="hidden"/>'
+				+ '<input name="host_session_id" value="nextcloud ' + OC.config.version
+					+ ' - richdocuments ' + Config.get('version') + '" type="hidden"/>'
 				+ '</form>'
 
 			// iframe that contains the Collabora Online Viewer
@@ -246,6 +248,8 @@ const documentsMain = {
 				+ '<input name="ui_defaults" value="' + getUIDefaults() + '" type="hidden"/>'
 				+ '<input name="css_variables" value="' + generateCSSVarTokens() + '" type="hidden"/>'
 				+ '<input name="theme" value="' + getCollaboraTheme() + '" type="hidden"/>'
+				+ '<input name="host_session_id" value="nextcloud ' + OC.config.version
+					+ ' - richdocuments ' + Config.get('version') + '" type="hidden"/>'
 				+ '</form>'
 
 			// iframe that contains the Collabora Online
